@@ -8,7 +8,7 @@ veos-pod-14.localdomain
 veos-pod-14.localdomain
 
 [nxos]
-n9k-standalone-02.localdomain
+n9k-standalone-03.localdomain
 
 [routers]
 csr1000v-pod-14.localdomain

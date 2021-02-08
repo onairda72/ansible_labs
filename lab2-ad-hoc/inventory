@@ -1,0 +1,16 @@
+n9k-standalone-03.localdomain ansible_user=admin ansible_password=Cisco123 
+csr1000v-pod-14.localdomain ansible_user=admin ansible_password=Cisco123 
+veos-pod-14.localdomain ansible_user=admin ansible_password=Cisco123 
+[network]
+n9k-standalone-03.localdomain
+csr1000v-pod-14.localdomain
+veos-pod-14.localdomain
+[9k]
+n9k-standalone-03.localdomain
+[csr]
+csr1000v-pod-14.localdomain
+
+[arista]
+veos-pod-15.localdomain
+[datacenter:children]
+network
